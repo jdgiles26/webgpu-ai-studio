@@ -1,0 +1,16 @@
+{
+  "name": "webgpu-ai-studio",
+  "version": "1.0.0",
+  "description": "Free, open-source WebGPU AI inference platform — 18 AI tools in one browser",
+  "private": true,
+  "workspaces": ["server", "client"],
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client && npm run build -w server",
+    "start": "npm run start -w server",
+    "setup": "npm install && npm run db:init -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

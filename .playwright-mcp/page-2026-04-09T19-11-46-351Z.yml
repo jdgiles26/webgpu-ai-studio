@@ -1,0 +1,42 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - link "🦞 WebGPU AI Studio" [ref=e6] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e7]: 🦞
+      - generic [ref=e8]:
+        - heading "WebGPU AI" [level=1] [ref=e9]
+        - paragraph [ref=e10]: Studio
+    - navigation [ref=e11]:
+      - link "⚡ Dashboard" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e13]: ⚡
+        - generic [ref=e14]: Dashboard
+      - link "📚 RAG Chat" [ref=e15] [cursor=pointer]:
+        - /url: /rag
+        - generic [ref=e16]: 📚
+        - generic [ref=e17]: RAG Chat
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: R
+        - generic [ref=e21]:
+          - paragraph [ref=e22]: Root Admin
+          - paragraph [ref=e23]: __dev_root_admin__@webgpu-ai.studio
+      - button "Sign Out" [ref=e24] [cursor=pointer]
+  - main [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e28]:
+        - generic [ref=e29]: 💻
+        - generic [ref=e30]:
+          - heading "Code Assistant" [level=2] [ref=e31]
+          - paragraph [ref=e32]: AI pair programmer — write, review, debug code across 50+ languages
+      - generic [ref=e35]:
+        - generic [ref=e36]: 💻
+        - heading "Start a conversation" [level=3] [ref=e37]
+        - paragraph [ref=e38]: AI pair programmer — write, review, debug code across 50+ languages. This AI runs entirely in your browser via WebGPU — no data leaves your device.
+        - generic [ref=e39]:
+          - button "Explain this code pattern" [ref=e40] [cursor=pointer]
+          - button "Optimize this function" [ref=e41] [cursor=pointer]
+          - button "Write a REST API endpoint" [ref=e42] [cursor=pointer]
+      - generic [ref=e44]:
+        - textbox "Type your message..." [ref=e45]
+        - button "➤" [disabled] [ref=e46]

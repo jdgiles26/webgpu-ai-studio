@@ -1,0 +1,21 @@
+- generic [ref=e23]:
+  - generic [ref=e24]:
+    - generic [ref=e25]: 🦞
+    - heading "WebGPU AI Studio" [level=1] [ref=e26]
+    - paragraph [ref=e27]: 18 free AI tools in your browser
+  - generic [ref=e28]: ⏳ Your account is pending admin approval. Please wait.
+  - generic [ref=e29]:
+    - heading "Sign In" [level=2] [ref=e30]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: Username or Email
+        - textbox "root or you@example.com" [ref=e34]
+      - generic [ref=e35]:
+        - generic [ref=e36]: Password
+        - textbox "••••••••" [ref=e37]
+      - button "Sign In" [ref=e38] [cursor=pointer]
+    - paragraph [ref=e39]:
+      - text: Don't have an account?
+      - link "Sign up free" [ref=e40] [cursor=pointer]:
+        - /url: /register
+  - paragraph [ref=e41]: Free, open-source, and privacy-first. All inference runs locally on your GPU.

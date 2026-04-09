@@ -1,0 +1,39 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - link "🦞 WebGPU AI Studio" [ref=e6] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e7]: 🦞
+      - generic [ref=e8]:
+        - heading "WebGPU AI" [level=1] [ref=e9]
+        - paragraph [ref=e10]: Studio
+    - navigation [ref=e11]:
+      - link "⚡ Dashboard" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e13]: ⚡
+        - generic [ref=e14]: Dashboard
+      - link "📚 RAG Chat" [ref=e15] [cursor=pointer]:
+        - /url: /rag
+        - generic [ref=e16]: 📚
+        - generic [ref=e17]: RAG Chat
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: R
+        - generic [ref=e21]:
+          - paragraph [ref=e22]: Root Admin
+          - paragraph [ref=e23]: __dev_root_admin__@webgpu-ai.studio
+      - button "Sign Out" [ref=e24] [cursor=pointer]
+  - main [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e28]:
+        - generic [ref=e29]: 💻
+        - generic [ref=e30]:
+          - heading "Code Assistant" [level=2] [ref=e31]
+          - paragraph [ref=e32]: AI pair programmer — write, review, debug code across 50+ languages
+        - generic [ref=e48]: 🟢 Unknown GPU
+      - generic [ref=e33]:
+        - generic [ref=e50]: hello
+        - generic [ref=e52]: "Error: Failed to download model_q4.onnx: 401"
+        - paragraph [ref=e54]: "⚠️ Download failed: Failed to download model_q4.onnx: 401"
+      - generic [ref=e44]:
+        - textbox "Type your message..." [ref=e45]
+        - button "➤" [disabled] [ref=e46]

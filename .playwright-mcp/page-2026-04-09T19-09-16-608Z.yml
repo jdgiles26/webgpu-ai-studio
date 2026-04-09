@@ -1,0 +1,231 @@
+- generic [ref=e22]:
+  - complementary [ref=e23]:
+    - link "🦞 WebGPU AI Studio" [ref=e25] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e26]: 🦞
+      - generic [ref=e27]:
+        - heading "WebGPU AI" [level=1] [ref=e28]
+        - paragraph [ref=e29]: Studio
+    - navigation [ref=e30]:
+      - link "⚡ Dashboard" [ref=e31] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e32]: ⚡
+        - generic [ref=e33]: Dashboard
+      - link "📚 RAG Chat" [ref=e34] [cursor=pointer]:
+        - /url: /rag
+        - generic [ref=e35]: 📚
+        - generic [ref=e36]: RAG Chat
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]: R
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: Root Admin
+          - paragraph [ref=e42]: __dev_root_admin__@webgpu-ai.studio
+      - button "Sign Out" [ref=e43] [cursor=pointer]
+  - main [ref=e44]:
+    - generic [ref=e45]:
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - heading "AI Studio" [level=1] [ref=e49]
+          - paragraph [ref=e50]: 18 free AI tools running entirely in your browser via WebGPU + ONNX Runtime
+        - button "🔍 Check WebGPU" [ref=e51] [cursor=pointer]
+      - generic [ref=e52]:
+        - button "⚡ All Tools" [ref=e53] [cursor=pointer]
+        - button "🗣️ Language" [ref=e54] [cursor=pointer]
+        - button "👁️ Vision" [ref=e55] [cursor=pointer]
+        - button "🎧 Audio" [ref=e56] [cursor=pointer]
+        - button "📈 Analysis" [ref=e57] [cursor=pointer]
+      - generic [ref=e58]:
+        - generic [ref=e59] [cursor=pointer]:
+          - link "🧠 language MoE Router Mixture of Experts — intelligently routes your query to the best specialized model for the task Chat ~0.6 GB VRAM" [ref=e60]:
+            - /url: /chat/moe-router
+            - generic [ref=e61]:
+              - generic [ref=e62]: 🧠
+              - generic [ref=e63]: language
+            - heading "MoE Router" [level=3] [ref=e64]
+            - paragraph [ref=e65]: Mixture of Experts — intelligently routes your query to the best specialized model for the task
+            - generic [ref=e66]:
+              - generic [ref=e67]: Chat
+              - generic [ref=e68]: ~0.6 GB VRAM
+          - button "⚡ Load Model" [ref=e70]
+        - generic [ref=e71] [cursor=pointer]:
+          - link "💬 language Multimodal Chat Chat with AI using text + images in a single conversation Chat Images ~4.4 GB VRAM" [ref=e72]:
+            - /url: /chat/multimodal-chat
+            - generic [ref=e73]:
+              - generic [ref=e74]: 💬
+              - generic [ref=e75]: language
+            - heading "Multimodal Chat" [level=3] [ref=e76]
+            - paragraph [ref=e77]: Chat with AI using text + images in a single conversation
+            - generic [ref=e78]:
+              - generic [ref=e79]: Chat
+              - generic [ref=e80]: Images
+              - generic [ref=e81]: ~4.4 GB VRAM
+          - button "⚡ Load Model" [ref=e83]
+        - link "📚 language RAG Knowledge Chat Upload documents/folders and chat with your knowledge base Chat" [ref=e85] [cursor=pointer]:
+          - /url: /rag
+          - generic [ref=e86]:
+            - generic [ref=e87]: 📚
+            - generic [ref=e88]: language
+          - heading "RAG Knowledge Chat" [level=3] [ref=e89]
+          - paragraph [ref=e90]: Upload documents/folders and chat with your knowledge base
+          - generic [ref=e92]: Chat
+        - generic [ref=e93] [cursor=pointer]:
+          - link "💻 language Code Assistant AI pair programmer — write, review, debug code across 50+ languages Chat ~4.1 GB VRAM" [ref=e94]:
+            - /url: /chat/code-assistant
+            - generic [ref=e95]:
+              - generic [ref=e96]: 💻
+              - generic [ref=e97]: language
+            - heading "Code Assistant" [level=3] [ref=e98]
+            - paragraph [ref=e99]: AI pair programmer — write, review, debug code across 50+ languages
+            - generic [ref=e100]:
+              - generic [ref=e101]: Chat
+              - generic [ref=e102]: ~4.1 GB VRAM
+          - button "⚡ Load Model" [ref=e104]
+        - generic [ref=e105] [cursor=pointer]:
+          - link "✍️ language Creative Writer AI writing companion for stories, poetry, scripts, and creative content Chat ~4.1 GB VRAM" [ref=e106]:
+            - /url: /chat/creative-writer
+            - generic [ref=e107]:
+              - generic [ref=e108]: ✍️
+              - generic [ref=e109]: language
+            - heading "Creative Writer" [level=3] [ref=e110]
+            - paragraph [ref=e111]: AI writing companion for stories, poetry, scripts, and creative content
+            - generic [ref=e112]:
+              - generic [ref=e113]: Chat
+              - generic [ref=e114]: ~4.1 GB VRAM
+          - button "⚡ Load Model" [ref=e116]
+        - generic [ref=e117] [cursor=pointer]:
+          - link "🌐 language Universal Translator Translate text between 100+ languages with context-aware neural translation Chat ~0.8 GB VRAM" [ref=e118]:
+            - /url: /chat/translator
+            - generic [ref=e119]:
+              - generic [ref=e120]: 🌐
+              - generic [ref=e121]: language
+            - heading "Universal Translator" [level=3] [ref=e122]
+            - paragraph [ref=e123]: Translate text between 100+ languages with context-aware neural translation
+            - generic [ref=e124]:
+              - generic [ref=e125]: Chat
+              - generic [ref=e126]: ~0.8 GB VRAM
+          - button "⚡ Load Model" [ref=e128]
+        - generic [ref=e129] [cursor=pointer]:
+          - link "🎨 vision Neural Style Transfer Transform photos into any artistic style — Van Gogh, Picasso, anime, custom Generates Images ~0.1 GB VRAM" [ref=e130]:
+            - /url: /tool/style-transfer
+            - generic [ref=e131]:
+              - generic [ref=e132]: 🎨
+              - generic [ref=e133]: vision
+            - heading "Neural Style Transfer" [level=3] [ref=e134]
+            - paragraph [ref=e135]: Transform photos into any artistic style — Van Gogh, Picasso, anime, custom
+            - generic [ref=e136]:
+              - generic [ref=e137]: Generates Images
+              - generic [ref=e138]: ~0.1 GB VRAM
+          - button "⚡ Load Model" [ref=e140]
+        - generic [ref=e141] [cursor=pointer]:
+          - link "🔍 vision Super Resolution Upscale images 2x–4x with AI-powered detail reconstruction Generates Images ~0.4 GB VRAM" [ref=e142]:
+            - /url: /tool/super-resolution
+            - generic [ref=e143]:
+              - generic [ref=e144]: 🔍
+              - generic [ref=e145]: vision
+            - heading "Super Resolution" [level=3] [ref=e146]
+            - paragraph [ref=e147]: Upscale images 2x–4x with AI-powered detail reconstruction
+            - generic [ref=e148]:
+              - generic [ref=e149]: Generates Images
+              - generic [ref=e150]: ~0.4 GB VRAM
+          - button "⚡ Load Model" [ref=e152]
+        - link "🖌️ vision Image Inpainting Remove objects, fill gaps, and reconstruct missing image regions Generates Images" [ref=e154] [cursor=pointer]:
+          - /url: /tool/image-inpainting
+          - generic [ref=e155]:
+            - generic [ref=e156]: 🖌️
+            - generic [ref=e157]: vision
+          - heading "Image Inpainting" [level=3] [ref=e158]
+          - paragraph [ref=e159]: Remove objects, fill gaps, and reconstruct missing image regions
+          - generic [ref=e161]: Generates Images
+        - link "🖼️ vision Text to Image Generate images from text descriptions using distilled diffusion models Generates Images" [ref=e163] [cursor=pointer]:
+          - /url: /tool/text-to-image
+          - generic [ref=e164]:
+            - generic [ref=e165]: 🖼️
+            - generic [ref=e166]: vision
+          - heading "Text to Image" [level=3] [ref=e167]
+          - paragraph [ref=e168]: Generate images from text descriptions using distilled diffusion models
+          - generic [ref=e170]: Generates Images
+        - generic [ref=e171] [cursor=pointer]:
+          - link "🎯 vision Object Detection Detect and classify objects with bounding boxes and confidence scores ~0.3 GB VRAM" [ref=e172]:
+            - /url: /tool/object-detection
+            - generic [ref=e173]:
+              - generic [ref=e174]: 🎯
+              - generic [ref=e175]: vision
+            - heading "Object Detection" [level=3] [ref=e176]
+            - paragraph [ref=e177]: Detect and classify objects with bounding boxes and confidence scores
+            - generic [ref=e179]: ~0.3 GB VRAM
+          - button "⚡ Load Model" [ref=e181]
+        - generic [ref=e182] [cursor=pointer]:
+          - link "✂️ vision Background Remover Instantly remove backgrounds — perfect for product shots and portraits Generates Images ~0.5 GB VRAM" [ref=e183]:
+            - /url: /tool/background-removal
+            - generic [ref=e184]:
+              - generic [ref=e185]: ✂️
+              - generic [ref=e186]: vision
+            - heading "Background Remover" [level=3] [ref=e187]
+            - paragraph [ref=e188]: Instantly remove backgrounds — perfect for product shots and portraits
+            - generic [ref=e189]:
+              - generic [ref=e190]: Generates Images
+              - generic [ref=e191]: ~0.5 GB VRAM
+          - button "⚡ Load Model" [ref=e193]
+        - generic [ref=e194] [cursor=pointer]:
+          - link "😊 vision Face Analyzer Detect faces, estimate age, emotion, and generate anonymized avatars ~0.3 GB VRAM" [ref=e195]:
+            - /url: /tool/face-analyzer
+            - generic [ref=e196]:
+              - generic [ref=e197]: 😊
+              - generic [ref=e198]: vision
+            - heading "Face Analyzer" [level=3] [ref=e199]
+            - paragraph [ref=e200]: Detect faces, estimate age, emotion, and generate anonymized avatars
+            - generic [ref=e202]: ~0.3 GB VRAM
+          - button "⚡ Load Model" [ref=e204]
+        - generic [ref=e205] [cursor=pointer]:
+          - link "🎙️ audio Speech to Text Transcribe audio in 100+ languages with real-time streaming Audio Input ~0.3 GB VRAM" [ref=e206]:
+            - /url: /tool/speech-to-text
+            - generic [ref=e207]:
+              - generic [ref=e208]: 🎙️
+              - generic [ref=e209]: audio
+            - heading "Speech to Text" [level=3] [ref=e210]
+            - paragraph [ref=e211]: Transcribe audio in 100+ languages with real-time streaming
+            - generic [ref=e212]:
+              - generic [ref=e213]: Audio Input
+              - generic [ref=e214]: ~0.3 GB VRAM
+          - button "⚡ Load Model" [ref=e216]
+        - generic [ref=e217] [cursor=pointer]:
+          - link "🔊 audio Text to Speech Natural voice synthesis with multiple voice styles and emotions Audio Output ~0.1 GB VRAM" [ref=e218]:
+            - /url: /tool/text-to-speech
+            - generic [ref=e219]:
+              - generic [ref=e220]: 🔊
+              - generic [ref=e221]: audio
+            - heading "Text to Speech" [level=3] [ref=e222]
+            - paragraph [ref=e223]: Natural voice synthesis with multiple voice styles and emotions
+            - generic [ref=e224]:
+              - generic [ref=e225]: Audio Output
+              - generic [ref=e226]: ~0.1 GB VRAM
+          - button "⚡ Load Model" [ref=e228]
+        - link "🎵 audio Music Generator Create music from text prompts — melodies, beats, full compositions Audio Output" [ref=e230] [cursor=pointer]:
+          - /url: /tool/music-gen
+          - generic [ref=e231]:
+            - generic [ref=e232]: 🎵
+            - generic [ref=e233]: audio
+          - heading "Music Generator" [level=3] [ref=e234]
+          - paragraph [ref=e235]: Create music from text prompts — melodies, beats, full compositions
+          - generic [ref=e237]: Audio Output
+        - generic [ref=e238] [cursor=pointer]:
+          - link "📊 analysis Sentiment Analyzer Analyze emotions, sentiment, and intent with visual dashboards ~0.1 GB VRAM" [ref=e239]:
+            - /url: /tool/sentiment-analyzer
+            - generic [ref=e240]:
+              - generic [ref=e241]: 📊
+              - generic [ref=e242]: analysis
+            - heading "Sentiment Analyzer" [level=3] [ref=e243]
+            - paragraph [ref=e244]: Analyze emotions, sentiment, and intent with visual dashboards
+            - generic [ref=e246]: ~0.1 GB VRAM
+          - button "⚡ Load Model" [ref=e248]
+        - generic [ref=e249] [cursor=pointer]:
+          - link "📝 analysis Document Summarizer Condense long articles, papers, and documents into concise summaries ~0.6 GB VRAM" [ref=e250]:
+            - /url: /tool/summarizer
+            - generic [ref=e251]:
+              - generic [ref=e252]: 📝
+              - generic [ref=e253]: analysis
+            - heading "Document Summarizer" [level=3] [ref=e254]
+            - paragraph [ref=e255]: Condense long articles, papers, and documents into concise summaries
+            - generic [ref=e257]: ~0.6 GB VRAM
+          - button "⚡ Load Model" [ref=e259]
