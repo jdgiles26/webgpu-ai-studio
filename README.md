@@ -1,4 +1,4 @@
-# 🦞 WebGPU AI Studio
+#  WebGPU AI Studio
 
 > **18 free AI inference tools running entirely in your browser.** No API keys. No cloud. No data leaves your device.
 
