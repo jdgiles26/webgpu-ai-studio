@@ -11,6 +11,6 @@
     "setup": "npm install && npm run db:init -w server"
   },
   "devDependencies": {
-    "concurrently": "^9.1.0"
+    "concurrently": "^9.2.5"
   }
 }
